@@ -106,13 +106,13 @@ em {
     margin-bottom: 0
 }
 
-#discordjs,#prism {
+#raven,#prism {
     color: #fff;
     margin: 0 -4rem;
     padding: 4rem
 }
 
-#discordjs {
+#raven {
     background: #5970C1;
     clip-path: polygon(0 5%,100% 0,100% 100%,0 95%)
 }
@@ -127,17 +127,17 @@ p {
     line-height: 1.625rem
 }
 
-#hackathons {
+#blogs {
     margin-top: 4rem
 }
 
-#hackathons-flex {
+#blogs-flex {
     display: flex;
     flex-flow: column;
     flex-wrap: wrap
 }
 
-.hackathon {
+.blog {
     flex: 1;
     margin: 3rem 0;
     display: flex;
@@ -148,21 +148,21 @@ p {
     display: inline-block
 }
 
-.hackathon:nth-child(even) {
+.blog:nth-child(even) {
     flex-flow: row-reverse
 }
 
-.hackathon .text {
+.blog .text {
     flex: 7;
     padding: 0 2rem
 }
 
-.hackathon h3 {
+.blog h3 {
     margin-top: 0;
     color: rgba(255,255,255,.9)
 }
 
-.hackathon .image {
+.blog .image {
     padding-top: 15rem;
     min-width: 15rem;
     background-size: 15rem;
@@ -170,19 +170,19 @@ p {
     background-position: center
 }
 
-#braille .image {
-    background-image: url(/res/braille/android.png);
+#other .image {
+    background-image: url(/res/other.png);
     background-size: 10rem;
     background-position: center top;
     box-shadow: inset 0 -8px 16px var(--primary-text-color)
 }
 
-#glance .image {
-    background-image: url(/res/glance.png)
+#about .image {
+    background-image: url(/res/about.png)
 }
 
-#esafety .image {
-    background-image: url(/res/esafety.jpg)
+#works .image {
+    background-image: url(/res/works.jpg)
 }
 
 .links {
@@ -235,24 +235,24 @@ p {
         padding: 2rem 0 0
     }
 
-    #hackathons {
+    #blogs {
         margin-top: 0
     }
 
-    .hackathon {
+    .blog {
         margin: 1rem 0;
         flex-flow: column!important
     }
 
-    .hackathon p {
+    .blog p {
         color: rgba(255,255,255,.6)
     }
 
-    .hackathon .image {
+    .blog .image {
         display: none
     }
 
-    .hackathon .text {
+    .blog .text {
         padding: 0
     }
 }

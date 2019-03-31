@@ -165,7 +165,7 @@ p {
 .blog .image {
     padding-top: 15rem;
     min-width: 15rem;
-    background-size: 15rem;
+    background-size: 10rem;
     background-repeat: no-repeat;
     background-position: center
 }
@@ -178,7 +178,7 @@ p {
 }
 
 #about .image {
-    background-image: url(/res/about.png)
+    background-image: url(https://avatars0.githubusercontent.com/u/45002816)
 }
 
 #works .image {

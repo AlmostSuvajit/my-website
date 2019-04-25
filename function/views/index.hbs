@@ -7,9 +7,9 @@
         <meta name="title" content="Raven - The Discord Bot"/>
         <meta content="https://avatars0.githubusercontent.com/u/45002816" property="og:image"/>
         <meta name="theme-color" content="#5970C1"/>
-        <link rel="icon" href="icon.png" type="image/gif" sizes="16x16">
+        <link rel="icon" href="/raven/icon.png" type="image/gif" sizes="16x16">
         <link type="application/json+oembed" href="https://almostsuvajit-xyz.firebaseapp.com/embed.json">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="/raven/main.css">
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
             <symbol id="envelope" viewBox="0 0 550.795 550.795">
                 <title>envelope</title>
@@ -94,71 +94,52 @@
             <br>
             <ul class="links">
                 <li>
-                    <a>Uptime - </a><a id="uptime">1 day 2 hours</a> 
+                    <a>Uptime - {{data.uptime}}</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Users - </a><a id="users">1000+</a>
+                    <a>Users - {{data.users}}</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Servers - </a><a id="guilds">10+</a>
+                    <a>Servers - {{data.guilds}}</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Channels - </a><a id="channels">500+</a>
+                    <a>Channels - {{data.channels}}</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Commands - </a><a id="totalcommands">130+</a>
+                    <a>Commands - {{data.totalcommands}}</a>
                 </li>
             </ul>
             <br>
             <ul class="links">
                 <li>
-                    <a>Memory Usage - </a><a id="memory">80 MB</a>
+                    <a>Memory Usage - {{data.memory}}</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Free Memory - </a><a id="freeMem">200 MB</a>
+                    <a>Free Memory - {{data.freeMem}}</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Messages Seen - </a><a id="messages"></a>
+                    <a>Messages Seen - {{data.messages}}</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Commands Used - </a><a id="commands">1000+</a>
+                    <a>Commands Used - {{data.commands}}</a>
                 </li>
             </ul>
             <br>
         </div>
-        <script>
-            var xmlhttp = new XMLHttpRequest();
-            xmlhttp.open("GET", "https://api.almostsuvajit.xyz/raven/", true);
-            xmlhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    var myObj = JSON.parse(this.responseText);
-                    document.getElementById("commands").innerHTML = myObj.commands;
-                    document.getElementById("messages").innerHTML = myObj.messages;
-                    document.getElementById("freeMem").innerHTML = myObj.freeMem;
-                    document.getElementById("memory").innerHTML = myObj.memory;
-                    document.getElementById("totalcommands").innerHTML = myObj.totalcommands;
-                    document.getElementById("channels").innerHTML = myObj.channels;
-                    document.getElementById("guilds").innerHTML = myObj.guilds;
-                    document.getElementById("users").innerHTML = myObj.users;
-                    document.getElementById("uptime").innerHTML = myObj.uptime;
-                }
-            };
-            xmlhttp.send();
-        </script>
         <footer class="container">
             <div class="padded" style="text-align:center">
                 <h3>© SUVAJIT - 2019</h3>

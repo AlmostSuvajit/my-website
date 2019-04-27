@@ -114,28 +114,28 @@
             </ul>
             <ul class="links">
                 <li>
-                    <a>Commands - </a><a id="totalcommands">130+</a>
+                    <a>Commands - </a><a id="commands">130+</a>
                 </li>
             </ul>
             <br>
             <ul class="links">
                 <li>
-                    <a>Memory Usage - </a><a id="memory">80 MB</a>
+                    <a>Memory Usage - </a><a id="memory_usage">80 MB</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Free Memory - </a><a id="freeMem">200 MB</a>
+                    <a>Free Memory - </a><a id="free_memory">200 MB</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Messages Seen - </a><a id="messages">5000+</a>
+                    <a>Messages Seen - </a><a id="messages_seen">5000+</a>
                 </li>
             </ul>
             <ul class="links">
                 <li>
-                    <a>Commands Used - </a><a id="commands">1000+</a>
+                    <a>Commands Used - </a><a id="commands_used">1000+</a>
                 </li>
             </ul>
             <br>
@@ -146,11 +146,11 @@
             xmlhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     var myObj = JSON.parse(this.responseText);
+                    document.getElementById("commands_used").innerHTML = myObj.commands_used;
+                    document.getElementById("messages_seen").innerHTML = myObj.messages_seen;
+                    document.getElementById("free_memory").innerHTML = myObj.free_memory;
+                    document.getElementById("memory_usage").innerHTML = myObj.memory_usage;
                     document.getElementById("commands").innerHTML = myObj.commands;
-                    document.getElementById("messages").innerHTML = myObj.messages;
-                    document.getElementById("freeMem").innerHTML = myObj.freeMem;
-                    document.getElementById("memory").innerHTML = myObj.memory;
-                    document.getElementById("totalcommands").innerHTML = myObj.totalcommands;
                     document.getElementById("channels").innerHTML = myObj.channels;
                     document.getElementById("guilds").innerHTML = myObj.guilds;
                     document.getElementById("users").innerHTML = myObj.users;

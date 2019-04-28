@@ -26,7 +26,7 @@ a {
 }
 
 #top {
-    background: linear-gradient(135deg,#7b30f3 10%,#305af3)
+    background: linear-gradient(135deg,#305af3 10%,#7b30f3)
 }
 
 #links {
@@ -106,19 +106,19 @@ em {
     margin-bottom: 0
 }
 
-#raven, #gsx {
+#raven,#prism {
     color: #fff;
     margin: 0 -4rem;
     padding: 4rem
 }
 
 #raven {
-    background: linear-gradient(135deg,#305af3 10%,#7b30f3);
+    background: #5970C1;
     clip-path: polygon(0 5%,100% 0,100% 100%,0 95%)
 }
 
-#gsx {
-    background: linear-gradient(135deg, #7b30f3  10%, #00897B);
+#prism {
+    background: #00897B;
     clip-path: polygon(0 0,100% 5%,100% 95%,0 100%)
 }
 

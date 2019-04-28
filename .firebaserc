@@ -1,5 +1,17 @@
 {
   "projects": {
-    "default": "almostsuvajit-xyz"
+    "default": "almostsuvajit-api"
+  },
+  "targets": {
+    "almostsuvajit-api": {
+      "hosting": {
+        "function": [
+          "almostsuvajit-api"
+        ],
+        "website": [
+          "almostsuvajit"
+        ]
+      }
+    }
   }
 }

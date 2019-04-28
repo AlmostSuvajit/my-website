@@ -106,7 +106,7 @@ em {
     margin-bottom: 0
 }
 
-#raven,#prism {
+#raven,#gsx {
     color: #fff;
     margin: 0 -4rem;
     padding: 4rem
@@ -117,7 +117,7 @@ em {
     clip-path: polygon(0 5%,100% 0,100% 100%,0 95%)
 }
 
-#prism {
+#gsx {
     background: #00897B;
     clip-path: polygon(0 0,100% 5%,100% 95%,0 100%)
 }

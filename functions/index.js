@@ -7,8 +7,13 @@ const app = express();
 const firebaseApp = firebase.initializeApp(
     functions.config().firebase
 );
-function getFacts() {
+function getRaven() {
     const ref = firebaseApp.database().ref('raven');
+    return ref.once('value').then(snap => snap.val());
+}
+
+function getPerks() {
+    const ref = firebaseApp.database().ref('clashperks');
     return ref.once('value').then(snap => snap.val());
 }
 
@@ -23,7 +28,13 @@ app.get('/roast', (req, res) => {
 });
 
 app.get('/raven', (req, res) => {
-    getFacts().then(data => {
+    getRaven().then(data => {
+        res.json(data);
+    });
+});
+
+app.get('/clashperks', (req, res) => {
+    getPerks().then(data => {
         res.json(data);
     });
 });

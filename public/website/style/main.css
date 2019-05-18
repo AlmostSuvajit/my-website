@@ -106,7 +106,7 @@ em {
     margin-bottom: 0
 }
 
-#raven, #gsx {
+#raven, #gsx, #clashperks {
     color: #fff;
     margin: 0 -4rem;
     padding: 4rem
@@ -120,6 +120,11 @@ em {
 #gsx {
     background: linear-gradient(135deg, #7b30f3  10%, #00897B);
     clip-path: polygon(0 0,100% 5%,100% 95%,0 100%)
+}
+
+#clashperks {
+    background: linear-gradient(135deg,#305af3 10%,#7b30f3);
+    clip-path: polygon(0 5%,100% 0,100% 100%,0 95%)
 }
 
 p {

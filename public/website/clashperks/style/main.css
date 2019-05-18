@@ -106,20 +106,15 @@ em {
     margin-bottom: 0
 }
 
-#raven,#gsx {
+#clashperks {
     color: #fff;
     margin: 0 -4rem;
     padding: 4rem
 }
 
-#raven {
+#clashperks {
     background: #5970C1;
     clip-path: polygon(0 5%,100% 0,100% 100%,0 95%)
-}
-
-#gsx {
-    background: #00897B;
-    clip-path: polygon(0 0,100% 5%,100% 95%,0 100%)
 }
 
 p {

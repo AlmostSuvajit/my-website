@@ -10,5 +10,9 @@
   {
     "target": "website",
     "public": "public/website"
+  },
+  {
+    "target": "sperlin",
+    "public": "public/sperlin"
   }]
 }

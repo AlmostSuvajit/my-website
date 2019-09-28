@@ -6,10 +6,10 @@
           <h1 class="index-intro-text-title animated rubberBand">
             SUVAJIT
           </h1>
-          <h3 class="index-intro-text-subtitle" style="animation-delay: 100ms">
+          <h3 class="index-intro-text-subtitle animated rubberBand" style="animation-delay: 100ms">
             Computer Science & Engineering Student
           </h3>
-          <h3 class="index-intro-text-subtitle" style="animation-delay: 100ms">
+          <h3 class="index-intro-text-subtitle animated rubberBand" style="animation-delay: 100ms">
             I Enjoy Writing Node.JS & Python
           </h3>
         </div>
@@ -31,15 +31,13 @@
           <i class="fab fa-discord index-contact-link-icon" />
         </a>
       </div>
-      <div class="index-footer animated fadeIn">
-        <div class="index-footer-links">
-          <a href="https://github.com/csuvajit" class="index-footer-link">
-            csuvajit
-          </a>
+      <div class="index-footer animated bounceIn">
+        <div class="index-footer-copyright">
+          <p>© SUVAJIT</p>
+          <p>
+            <i class="fas fa-code symbol" /> with <i class="fas fa-heart symbol" /> by Suvajit
+          </p>
         </div>
-        <p class="index-footer-copyright">
-          ©SUVAJIT
-        </p>
       </div>
     </div>
   </div>
@@ -51,7 +49,7 @@
 
   .index-default {
     padding-block-start: 7rem;
-    padding-block-end: 1rem;
+    padding-block-end: 0rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,8 +130,11 @@
       }
 
       .index-footer-copyright {
-        font-size: 20px;
-        letter-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0px;
         color: var(--blue);
       }
     }

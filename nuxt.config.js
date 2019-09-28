@@ -41,7 +41,8 @@ export default {
   ],
 
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    ['@nuxtjs/google-gtag', { id: 'UA-148923434-1' }]
   ],
 
   build: {

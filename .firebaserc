@@ -1,18 +1,12 @@
 {
   "projects": {
-    "default": "almostsuvajit-api"
+    "default": "aparture"
   },
   "targets": {
-    "almostsuvajit-api": {
+    "aparture": {
       "hosting": {
-        "function": [
-          "almostsuvajit-api"
-        ],
-        "website": [
-          "almostsuvajit"
-        ],
-        "sperlin": [
-          "sperlin"
+        "mysite": [
+          "suvajit-me"
         ]
       }
     }

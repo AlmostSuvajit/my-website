@@ -1,18 +1,8 @@
 {
-  "hosting": [{
-    "target": "function",
-    "public": "public/function",
-    "rewrites": [{
-      "source": "**",
-      "function": "app"
-    }]
-  },
-  {
-    "target": "website",
-    "public": "public/website"
-  },
-  {
-    "target": "sperlin",
-    "public": "public/sperlin"
-  }]
+  "hosting": [
+    {
+      "target": "mysite",
+      "public": "dist"
+    }
+  ]
 }

@@ -48,8 +48,7 @@
   height: 100%;
 
   .index-default {
-    padding-block-start: 7rem;
-    padding-block-end: 0rem;
+    padding-top: 6.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,7 +144,7 @@
   .index {
 
     .index-default {
-
+      padding-top: 4rem;
       .index-intro {
 
         .index-intro-image {
@@ -171,7 +170,7 @@
   .index {
 
     .index-default {
-
+      padding-top: 4rem;
       .index-intro {
 
         .index-intro-image {

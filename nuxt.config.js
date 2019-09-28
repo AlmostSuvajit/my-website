@@ -10,7 +10,6 @@ export default {
       { hid: 'author', name: 'author', content: 'SUVAJIT (https://suvajit.me)' },
       { hid: 'publisher', name: 'publisher', content: 'SUVAJIT (https://suvajit.me)' },
       { hid: 'image', name: 'image', content: 'https://suvajit.me/img/avatar.png' },
-      { hid: 'robots', name: 'robots', content: 'index, follow' },
       { hid: 'application-name', name: 'application-name', content: 'SUVAJIT' },
       { hid: 'theme-color', name: 'theme-color', content: '#305af3' },
       { hid: 'og:title', property: 'og:title', content: 'SUVAJIT' },

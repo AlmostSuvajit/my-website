@@ -18,6 +18,15 @@
         <a href="https://github.com/csuvajit" class="index-contact-link animated bounceIn" style="animation-delay: 0ms">
           <i class="fab fa-github index-contact-link-icon" />
         </a>
+
+        <a href="mailto:suvajit.me@gmail.com" class="index-contact-link animated bounceIn" style="animation-delay: 80ms">
+          <i class="fas fa-envelope index-contact-link-icon" />
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCX1a_ARPLZlbTEH5WZyLoaw" class="index-contact-link animated bounceIn" style="animation-delay: 160ms">
+          <i class="fab fa-youtube index-contact-link-icon" />
+        </a>
+
         <a href="https://discord.gg/8NP2XNV" class="index-contact-link animated bounceIn" style="animation-delay: 200ms">
           <i class="fab fa-discord index-contact-link-icon" />
         </a>

@@ -23,7 +23,7 @@
           <i class="fas fa-envelope index-contact-link-icon" />
         </a>
 
-        <a href="https://www.youtube.com/channel/UCX1a_ARPLZlbTEH5WZyLoaw" class="index-contact-link animated bounceIn" style="animation-delay: 100ms">
+        <a href="https://www.youtube.com/channel/UC9gG0Zhc1RwOgnmMJDV1kBQ" class="index-contact-link animated bounceIn" style="animation-delay: 100ms">
           <i class="fab fa-youtube index-contact-link-icon" />
         </a>
 

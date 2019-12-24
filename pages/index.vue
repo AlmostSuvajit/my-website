@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="index-contact">
-        <a href="https://github.com/csuvajit" class="index-contact-link animated bounceIn" style="animation-delay: 0ms">
+        <a href="https://github.com/ndency" class="index-contact-link animated bounceIn" style="animation-delay: 0ms">
           <i class="fab fa-github index-contact-link-icon" />
         </a>
 
